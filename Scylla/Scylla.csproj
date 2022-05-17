@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BF0442-C8B2-4CA0-8BE0-4993EEEF501C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scylla</RootNamespace>
+    <AssemblyName>Scylla</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Scylla.ico</ApplicationIcon>
+    <StartupObject>scyllareworked.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto" />
+    <Reference Include="FiddlerCore" />
+    <Reference Include="Guna.UI2" />
+    <Reference Include="ICSharpCode.SharpZipLib" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-Module-{E433FB6F-3F5B-4260-A4AB-0DD4A05C4FBB}.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="scyllareworked\api.cs" />
+    <Compile Include="scyllareworked\encryption.cs" />
+    <Compile Include="scyllareworked\Features\API.cs" />
+    <Compile Include="scyllareworked\Features\App.cs" />
+    <Compile Include="scyllareworked\Features\ApplicationSettings.cs" />
+    <Compile Include="scyllareworked\Features\Constants.cs" />
+    <Compile Include="scyllareworked\Features\Encryption.cs" />
+    <Compile Include="scyllareworked\Features\InfoManager.cs" />
+    <Compile Include="scyllareworked\Features\Injector.cs" />
+    <Compile Include="scyllareworked\Features\OnProgramStart.cs" />
+    <Compile Include="scyllareworked\Features\Security.cs" />
+    <Compile Include="scyllareworked\Features\User.cs" />
+    <Compile Include="scyllareworked\FiddlerCore.cs" />
+    <Compile Include="scyllareworked\json_wrapper.cs" />
+    <Compile Include="scyllareworked\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scyllareworked\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scyllareworked\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scyllareworked\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scyllareworked\Program.cs" />
+    <Compile Include="scyllareworked\Properties\Resources.cs" />
+    <Compile Include="scyllareworked\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="scyllareworked\Resources\ArrayExt.cs" />
+    <Compile Include="scyllareworked\Resources\Extra.cs" />
+    <Compile Include="Scylla_ProcessedByFody.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="Costura\bcmakecert\dll.compressed" />
+    <EmbeddedResource Include="Costura\bouncycastle\crypto\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="Costura\fiddlercore\dll.compressed" />
+    <EmbeddedResource Include="Costura\guna\ui2\dll.compressed" />
+    <EmbeddedResource Include="Costura\icsharpcode\sharpziplib\dll.compressed" />
+    <EmbeddedResource Include="Costura\icsharpcode\sharpziplib\pdb.compressed" />
+    <EmbeddedResource Include="Costura\metadata" />
+    <EmbeddedResource Include="Costura\newtonsoft\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\diagnostics\diagnosticsource\dll.compressed" />
+    <EmbeddedResource Include="Costura\telerik\networkconnections\dll.compressed" />
+    <EmbeddedResource Include="Scylla.g.resources" />
+    <EmbeddedResource Include="scyllareworked\Login.resources" />
+    <EmbeddedResource Include="scyllareworked\Main.resources" />
+    <EmbeddedResource Include="scyllareworked\Properties\Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="scyllareworked\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+costura.bcmakecert.dll.compressed|2.0.9.0|BCMakeCert, Version=2.0.9.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|BCMakeCert.dll|19293C35F10D13517A3B7839D5BD070CC8BAF02E|614488
+costura.bouncycastle.crypto.dll.compressed|1.8.10.0|BouncyCastle.Crypto, Version=1.8.10.0, Culture=neutral, PublicKeyToken=0e99375e54769942|BouncyCastle.Crypto.dll|A48CAF79E6DE1EECB588C3B7C4550CA4D66F4A59|2930352
+costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF33BDD62C4F82D3EF078E76F0906|4608
+costura.costura.pdb.compressed|||Costura.pdb|6C6000A5EAF8579850AB82A89BD6268776EB51AD|2608
+costura.fiddlercore.dll.compressed|5.0.0.0|FiddlerCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|FiddlerCore.dll|F022F1629B2FB3DFF833D0C3323040C5D6CA3221|678912
+costura.guna.ui2.dll.compressed|2.0.0.1|Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b|Guna.UI2.dll|015EB32AAD6F5309296C3A88F0C5AB1BA451D41E|1510056
+costura.icsharpcode.sharpziplib.dll.compressed|1.3.3.11|ICSharpCode.SharpZipLib, Version=1.3.3.11, Culture=neutral, PublicKeyToken=1b03e6acf1164f73|ICSharpCode.SharpZipLib.dll|EDF2AB9EE284FA21DBB55E93D082848E800F068B|204800
+costura.icsharpcode.sharpziplib.pdb.compressed|||ICSharpCode.SharpZipLib.pdb|797D83BFE6A654FE21916806E6CA7BCBB3B4C3FB|102612
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|7D0AD03FBDA1C24F883116B940717E596073AE96|701992
+costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760
+costura.telerik.networkconnections.dll.compressed|0.2.0.0|Telerik.NetworkConnections, Version=0.2.0.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|Telerik.NetworkConnections.dll|1144B3E586C2A5D9F1B6CEFA4C13DFAAFB8518C1|48776
